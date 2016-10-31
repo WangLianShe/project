@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.icon{
+	width:1.2em;
+	height: 1.2em;
+	vertical-align:-0.22em;
+	fill:currentColor;
+	overflow: hidden;
+}
+.container{
+	margin:0 auto;
+}
+.banner{
+	height:32px;
+	width:100%;
+	background-color:#666;
+	border: 1px solid #666;
+}
+.user{
+	display:inline-block;
+	float:right;
+	margin-top: 3px;
+	border: 1px solid #666;
+}
+.login{
+	height:20px;
+	border: 1px solid #666;
+}
+.login li{
+	display:block;
+	width:50px;
+	list-style-type:none;
+	float:left;
+	text-align:center;
+}
+.login a{
+	text-decoration:none;
+	color:#ccc;
+	font-family:"黑体";
+	font-size:12px;
+	transition: 0.5s;
+}
+.login a:hover{
+	color: #fff;
+}
+.nav{
+	height: 40px;
+	background-color: #333;
+	border: 1px solid #333;
+}
+.nav ul{
+	margin: 0 auto;
+	width: 1000px;
+	margin-top: 8px;
+}
+.nav li{
+	float: left;
+	width: 14.28%;
+	list-style-type: none;
+}
+.nav a{
+	font-family: "黑体";
+	font-weight:500;
+	text-decoration:none;
+	color: #fff;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.nav a:hover{
+	color: #999;
+}
+.laptop-main{
+	background: url(../image/yinxiang-main.jpg) 0 0 no-repeat;
+	width: 100%;
+	height:800px;
+	background-position:bottom;
+	background-size:750px;
+	border: 1px solid #fff;
+}
+.laptop-main p{
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 200px;
+	font-size: 50px;
+	font-family: "方正兰亭超细黑简体";
+	font-weight: bold;
+	line-height: 70px;
+}
+.laptop-main a{
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 20px;
+	display: inline-block;
+}
+.laptop-main a:hover{
+	text-decoration: underline;
+}
+.ingradient{
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(to bottom, #fff 0%,#ccc 100%);
+	overflow: hidden;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
+.laptop-middle{
+	width: 100%;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
+.laptop-center{
+	width: 1300px;
+	height:950px;
+	margin: 0 auto;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
+.laptop-left{
+	background: url(../image/yinxiang-middle.jpg) 0 0 no-repeat;
+	width:500px;
+	height:800px;
+	background-position:center;
+	background-size: 800px auto;
+	float: left;
+	border: 1px solid #ccc;
+}
+.laptop-left p{
+	margin-top: 50px;
+	margin-left:100px;
+	color: #333;
+	font-family: "方正兰亭超细黑简体";
+	font-size: 37px;
+	font-weight: bold;
+}
+.laptop-left a{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 160px;
+	font-size: 16px;
+	color: #00e;
+}
+.laptop-left a:hover{
+	text-decoration: underline;
+}
+.laptop-right{
+	background: url(../image/yinxiang-professional.jpg) 0 0 no-repeat;
+	width: 500px;
+	height: 800px;
+	float: right;
+	background-position: center;
+	background-size: 800px auto;
+	border: 1px solid #eee;
+}
+.laptop-right p{
+	margin-top: 50px;
+	margin-left:80px;
+	font-family: "方正兰亭超细黑简体";
+	font-size: 37px;
+	font-weight: bolder;
+}
+.laptop-right a{
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #00e;
+}
+.laptop-right a:hover{
+	text-decoration: underline;
+}
+.laptop-bottom{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #fff;
+}
+.after-sale-service{
+	width:600px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 45px;
+	border: 1px solid #fff;
+}
+.after-sale-service p{
+	text-align: center;
+	font-family: "方正兰亭超细黑简体";
+	font-size: 50px;
+	font-weight: bold;
+	display: block;
+}
+.after-sale-service div{
+	float: left;
+	margin:20px 0px 0px 87px
+}
+.after-sale-service span{
+	font-family: "黑体";
+	display: block;
+	margin:5px 0px 0px 8px;
+	color: #777;
+}
+.seven-day span{
+	margin-left: 12px;
+}
+.after-sale-service .icon{
+	display: block;
+	width: 5em;
+	height: 5em;
+	color: #777;
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #eee;
+	border: 1px solid #eee;
+}
+.list{
+	width: 900px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #eee;
+}
+.list dl{
+	float: left;
+	font-family: "黑体";
+	font-size: 12px;
+	margin-left: 140px;
+	color:#777;
+}
+.list dt{
+	font-weight: bold;
+}
+.declaration{
+margin-top: 90px;
+border-top: 1px solid #999;
+border-bottom: 1px solid #eee;
+border-left: 1px solid #eee;
+border-right: 1px solid #eee;
+}
+.declaration p{
+	font-family: "黑体";
+	font-size: 12px;
+	color: #999;
+	padding-top: 5px;
+}
